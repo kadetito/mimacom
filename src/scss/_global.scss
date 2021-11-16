@@ -1,0 +1,25 @@
+a {
+  color: #e67108;
+}
+
+a:hover {
+  color: #a34c00;
+}
+
+.header__container {
+  .breadcrumb {
+    color: #e67108 !important;
+  }
+  .breadcrumb-item {
+    color: #e67108 !important;
+  }
+  .breadcrumb-item::before {
+    color: #e67108 !important;
+  }
+}
+
+.media_margin {
+  @media (max-width: 1080px) {
+    margin-bottom: 20px;
+  }
+}
